@@ -1,0 +1,26 @@
+{
+  "name": "api-zhihu-daily",
+  "version": "1.0.0",
+  "description": "知乎日报api接口",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaozhixing/api-zhihu-daily.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaozhixing/api-zhihu-daily/issues"
+  },
+  "homepage": "https://github.com/yaozhixing/api-zhihu-daily#readme"
+}
