@@ -1,5 +1,5 @@
 const axios = require('axios')
-let baseURL = 'https://news-at.zhihu.com/api';
+let baseURL = 'http://news-at.zhihu.com/api';
 
 const request = axios.create({
   baseURL: baseURL,
@@ -8,7 +8,7 @@ const request = axios.create({
 
 request.interceptors.request.use(
   config => {
-    config.headers.tokenId = parseInt(Math.random() * 1000000000000000, 10)
+    config.headers.tokenId = '435065970'
     config.headers.sign = new Date().getTime()
     return config
   },

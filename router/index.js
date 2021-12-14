@@ -1,6 +1,6 @@
 const router = require('koa-router')();
 
-router.get('/', (ctx) => {
+router.get('/', (ctx, next) => {
   ctx.body = '知乎日报接口文档'
 })
 

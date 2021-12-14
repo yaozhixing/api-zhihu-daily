@@ -17,8 +17,6 @@ app.use(themes.routes(), themes.allowedMethods()); // 主题
 app.use(hot.routes(), hot.allowedMethods()); // 热门
 app.use(others.routes(), others.allowedMethods()); // 其他
 
-console.log(new Date())
-
 app.listen(2010, () => {
   console.log('api-zhihu-daily server is starting at port 2010')
 })
